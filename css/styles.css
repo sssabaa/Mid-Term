@@ -1,0 +1,37 @@
+nav {
+  background-color: black;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 1em 0;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+nav a:hover {
+  color: wheat;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    border-bottom: 1em groove silver;
+  }
+  nav a {
+    margin: auto;
+  }
+}
+img {
+  height: 200px;
+  width: 150px;
+}
+
+/*# sourceMappingURL=styles.css.map */
